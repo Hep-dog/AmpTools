@@ -1,5 +1,5 @@
 
-INC_DIR :=  -I.. -I$(ROOTSYS)/include -I$(AMPTOOLS) -I$(GAMMAKK)
+INC_DIR :=  -I.. -I$(ROOTSYS)/include -I$(AMPTOOLS) -I$(GAMMAKK) -I$(AMPTOOLS)/IUAmpTools
 
 LIB_DIR := -L$(ROOTSYS)/lib -L$(AMPTOOLS)/lib -L$(GAMMAKK)/lib
 

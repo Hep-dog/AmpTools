@@ -7,15 +7,16 @@
 #include <vector>
 #include <utility>
 #include <map>
-#include "IUAmpTools/ConfigFileParser.h"
-#include "IUAmpTools/ConfigurationInfo.h"
-#include "IUAmpTools/AmpToolsInterface.h"
-#include "IUAmptools/FitResults.h"
 
 #include "gammaKKDataIO/gammaKKDataReader.h"
 #include "gammaKKAmp/gammaKKHelicityAmp.h"
 #include "gammaKKAmp/MultipoleAmps.h"
 #include "gammaKKExe/constants.h"
+
+#include "IUAmpTools/ConfigFileParser.h"
+#include "IUAmpTools/ConfigurationInfo.h"
+#include "IUAmpTools/AmpToolsInterface.h"
+#include "IUAmpTools/FitResults.h"
 
 using std::complex;
 using namespace std;
